@@ -1,16 +1,18 @@
-/* first header and banner  */
+/* first part */
+.main-css{
+    width: 100%;
+}
 .banner{
     display: flex;
     position: relative;
     text-align: center;
     
-   
-    
 }
 .header-text{
+    text-align: right;
     vertical-align: top;
-    align-items: right;
-    width: 525px;
+    padding-right: 40px;
+    width:100%;
     font-weight: 700;
     font-size: large;
     padding-top: 250px;
@@ -20,7 +22,7 @@
 }
 .btn{
     background-color: #d2691e;
-    color: aliceblue;
+    color: white;
     width: 160px;
     height: 64px;
     top: 578px;
@@ -30,51 +32,89 @@
 }
 /* second header and banner */
 .failures-text{
+    text-align: left;
     align-items:center;
     vertical-align: top;
     align-items: right;
     padding-left: 200px;
-    width: 525px;
+    width: 400px;
     padding-top: 200px;
 
 
 }
+/* third part start  */
 /* icon start  */
 
 .icons{
-    padding: 100px;
+    padding: 10px;
     display: flex;
     margin: auto;
     width: 50%;
     border: 3px ;
-    padding: 10px;
+    
 
 }
 .sub-icon{
     margin: 10px;
+    padding: 10px;
     padding-right: 100px;
 }
 
+/* fourth part start  */
 /* image part  */
 .image-part{
-    justify-items: center;
+    position: relative;
+    text-align: center;
+    display: block;
+    margin-left: 150px;
+    margin-right: 60px;
+    width: 75%;
+    color: white;
+    background-image: url('images/watch.png');
     
+    background-size: cover;
+}
+.last-image-text{
+    padding-top: 40px;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  
+}
+.btn1{
+    background-color: white;
+    color: #d2691e;
+   
+    width: 160px;
+    height: 54px;
+    top: 408px;
+    border-radius: 5px;
+    left: 1210px;
+
 }
 
-/* footer part  */
+/* final part  */
 
 .footer-part{
     color: aliceblue;
     background-color: rgb(19, 19, 19);
-    
     display: flex;
-    font-weight: 700;
     
 }
 .footer-part1{
     margin-left: 100px;
     margin-right: 500px;
 }
-.subscribe{
-    padding-top: 20px;
+
+.btn1{
+    background-color: #ebe9e7;
+    color: rgb(218, 39, 39);
+    width: 160px;
+    height: 64px;
+    top: 578px;
+    border-radius: 10px;
+    left: 1210px;
+}
+.form-part{
+    box-sizing: border-box;
 }
