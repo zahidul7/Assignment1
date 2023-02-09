@@ -1,0 +1,80 @@
+/* first header and banner  */
+.banner{
+    display: flex;
+    position: relative;
+    text-align: center;
+    
+   
+    
+}
+.header-text{
+    vertical-align: top;
+    align-items: right;
+    width: 525px;
+    font-weight: 700;
+    font-size: large;
+    padding-top: 250px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+.btn{
+    background-color: #d2691e;
+    color: aliceblue;
+    width: 160px;
+    height: 64px;
+    top: 578px;
+    border-radius: 5px;
+    left: 1210px;
+
+}
+/* second header and banner */
+.failures-text{
+    align-items:center;
+    vertical-align: top;
+    align-items: right;
+    padding-left: 200px;
+    width: 525px;
+    padding-top: 200px;
+
+
+}
+/* icon start  */
+
+.icons{
+    padding: 100px;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    border: 3px ;
+    padding: 10px;
+
+}
+.sub-icon{
+    margin: 10px;
+    padding-right: 100px;
+}
+
+/* image part  */
+.image-part{
+    justify-items: center;
+    
+}
+
+/* footer part  */
+
+.footer-part{
+    color: aliceblue;
+    background-color: rgb(19, 19, 19);
+    
+    display: flex;
+    font-weight: 700;
+    
+}
+.footer-part1{
+    margin-left: 100px;
+    margin-right: 500px;
+}
+.subscribe{
+    padding-top: 20px;
+}
